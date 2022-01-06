@@ -92,7 +92,7 @@ while confirmar != 's':
     for k, v in dict.items():
         print(f'> A pergunta: {k} tem o valor: {v}')
     print('-='*50)
-    confirmar = str(input('Confirma as informações? Digite [S] ou qualquer tecla para sair')).strip().lower()
+    confirmar = str(input('Confirma as informações? Digite [S] ou qualquer tecla para recomeçar:')).strip().lower()
 
 resultado = (sum(dict.values()))
 
